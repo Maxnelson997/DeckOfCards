@@ -1,3 +1,6 @@
+## Deck Of Cards
+- I used a template I built for the app base/architecture, we will talk about it in the interview perhaps.
+
 ## In-depth Webpack Setup 
 including the following:
  - **Development & production webpack configs**
