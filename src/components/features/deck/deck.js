@@ -94,7 +94,7 @@ const Deck = () => {
                 
                 console.log(`${suit.suit}: ${cardsForEachSuit}`)
             })
-            console.log('all has queeen', allHaveQueen);
+            console.log('all has queen', allHaveQueen);
             
             // set done drawing if all have queen
         }
@@ -107,7 +107,7 @@ const Deck = () => {
             <div className='deck__cards'>
             {
                 cards ? cards.map((cardInfo) => {
-                    return <Card cardInfo={cardInfo}/>
+                    return <Card {...cardInfo}/>
                 }) : ''
             }
             </div>
